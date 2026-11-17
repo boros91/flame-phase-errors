@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+# build products of the scripts
+code/sundials_ttol
+code/sundials_ttol.exe
+figs/*.png
+results/tables_not_in_paper/
+results/traj_nsfd3.npz
+# MATLAB output folder (copy the CSV files to results/matlab/)
+matlab/results_matlab/
+*.asv
+# Julia driver output
+julia/out_v24/
+julia/time_tolerance_julia.csv
+# editors, OS, logs
+*.log
+*.tmp
+*~
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

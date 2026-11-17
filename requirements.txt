@@ -1,0 +1,11 @@
+# Python environment used for all Python scripts (Python 3.13.16)
+numpy==2.5.3
+scipy==1.18.1
+pandas==3.0.5
+matplotlib==3.11.2
+sympy==1.14.0
+mpmath==1.3.0
+numba==0.68.0
+# julia/run_flame_julia*.py additionally needs juliacall (Julia 1.13.1, OrdinaryDiffEq 7.8.1,
+# OrdinaryDiffEqBDF 2.4.12, OrdinaryDiffEqSDIRK 2.9.7; see results/julia/julia_versions.txt)
+# code/exp_sundials.py needs SUNDIALS 6.4.1 (CVODE) and gcc; the MATLAB scripts need MATLAB R2023b (no toolboxes)

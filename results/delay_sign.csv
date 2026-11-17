@@ -1,0 +1,9 @@
+solver,runs,early,late
+ode113,27,0,27
+ode15s,33,33,0
+ode15s_BDF,33,33,0
+ode23,27,0,27
+ode23s,33,31,2
+ode23t,31,31,0
+ode23tb,33,33,0
+ode45,27,15,12

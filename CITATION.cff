@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper and this repository."
+title: "flame-phase-errors: code and data for 'Right shape, wrong time: phase errors of ODE solvers in the flame problem'"
+type: software
+authors:
+  - family-names: Boros
+    given-names: Imre
+    affiliation: "Tiberiu Popoviciu Institute of Numerical Analysis, Romanian Academy, Cluj-Napoca, Romania"
+version: 1.0.0
+date-released: 2026-11-17
+license: MIT
+repository-code: "https://github.com/boros91/flame-phase-errors"
+keywords:
+  - flame problem
+  - phase error
+  - ODE solvers
+  - stiff initial value problems
+  - error control
+  - MATLAB ODE suite
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Boros
+      given-names: Imre
+      affiliation: "Tiberiu Popoviciu Institute of Numerical Analysis, Romanian Academy, Cluj-Napoca, Romania"
+  title: "Right shape, wrong time: phase errors of ODE solvers in the flame problem"
+  year: 2026
+  notes: "Submitted"

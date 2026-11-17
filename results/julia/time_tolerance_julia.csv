@@ -1,0 +1,123 @@
+delta,solver,form,abstol_t,D_half,maxerr,nf,retcode
+1e-04,Tsit5,standard,NaN,6.477430e-02,9.531038e-03,17613,Success
+1e-04,Tsit5,tau_same_tol,1e-08,-1.484101e-04,2.197919e-05,17517,Terminated
+1e-04,Tsit5,tau_abs_tol_t,1e-02,-1.786686e-04,2.646715e-05,17469,Terminated
+1e-04,Tsit5,tau_abs_tol_t,1e-04,-8.606996e-06,1.285821e-06,17655,Terminated
+1e-04,Tsit5,tau_abs_tol_t,1e-06,-1.758963e-07,6.356500e-07,18231,Terminated
+1e-04,Tsit5,tau_abs_tol_t,1e-08,-5.022230e-09,9.556910e-09,19779,Terminated
+1e-04,Tsit5,tau_abs_tol_t,1e-10,-1.764420e-10,9.915038e-10,21519,Terminated
+1e-04,Vern7,standard,NaN,3.899712e-03,5.507657e-04,22122,Success
+1e-04,Vern7,tau_same_tol,1e-08,1.679975e-05,2.442807e-06,21962,Terminated
+1e-04,Vern7,tau_abs_tol_t,1e-02,2.022020e-05,2.980279e-06,21872,Terminated
+1e-04,Vern7,tau_abs_tol_t,1e-04,8.309162e-07,1.308961e-07,22002,Terminated
+1e-04,Vern7,tau_abs_tol_t,1e-06,1.700391e-08,6.483113e-08,22252,Terminated
+1e-04,Vern7,tau_abs_tol_t,1e-08,4.074536e-10,1.291146e-09,22832,Terminated
+1e-04,Vern7,tau_abs_tol_t,1e-10,3.274181e-11,1.358438e-10,23382,Terminated
+1e-04,Rosenbrock23,standard,NaN,-2.963010e+00,3.980790e-01,2283,Success
+1e-04,Rosenbrock23,tau_same_tol,1e-08,NaN,NaN,-1,error: MethodError: no method matching Float64(::Vector{Float64})
+T
+1e-04,Rosenbrock23,tau_abs_tol_t,1e-02,NaN,NaN,-1,error: MethodError: no method matching Float64(::Vector{Float64})
+T
+1e-04,Rosenbrock23,tau_abs_tol_t,1e-04,NaN,NaN,-1,error: MethodError: no method matching Float64(::Vector{Float64})
+T
+1e-04,Rosenbrock23,tau_abs_tol_t,1e-06,NaN,NaN,-1,error: MethodError: no method matching Float64(::Vector{Float64})
+T
+1e-04,Rosenbrock23,tau_abs_tol_t,1e-08,NaN,NaN,-1,error: MethodError: no method matching Float64(::Vector{Float64})
+T
+1e-04,Rosenbrock23,tau_abs_tol_t,1e-10,NaN,NaN,-1,error: MethodError: no method matching Float64(::Vector{Float64})
+T
+1e-04,Rodas5P,standard,NaN,1.326591e-01,1.962882e-02,1729,Success
+1e-04,Rodas5P,tau_same_tol,1e-08,NaN,NaN,-1,error: MethodError: no method matching Float64(::Vector{Float64})
+T
+1e-04,Rodas5P,tau_abs_tol_t,1e-02,NaN,NaN,-1,error: MethodError: no method matching Float64(::Vector{Float64})
+T
+1e-04,Rodas5P,tau_abs_tol_t,1e-04,NaN,NaN,-1,error: MethodError: no method matching Float64(::Vector{Float64})
+T
+1e-04,Rodas5P,tau_abs_tol_t,1e-06,NaN,NaN,-1,error: MethodError: no method matching Float64(::Vector{Float64})
+T
+1e-04,Rodas5P,tau_abs_tol_t,1e-08,NaN,NaN,-1,error: MethodError: no method matching Float64(::Vector{Float64})
+T
+1e-04,Rodas5P,tau_abs_tol_t,1e-10,NaN,NaN,-1,error: MethodError: no method matching Float64(::Vector{Float64})
+T
+1e-04,FBDF,standard,NaN,-1.316337e+00,1.909737e-01,980,Success
+1e-04,FBDF,tau_same_tol,1e-08,1.301749e-02,1.817984e-03,707,Terminated
+1e-04,FBDF,tau_abs_tol_t,1e-02,-1.023676e-02,1.702089e-03,791,Terminated
+1e-04,FBDF,tau_abs_tol_t,1e-04,1.564325e-02,2.315791e-03,746,Terminated
+1e-04,FBDF,tau_abs_tol_t,1e-06,-1.574745e-02,2.331829e-03,734,Terminated
+1e-04,FBDF,tau_abs_tol_t,1e-08,5.083680e-03,7.531166e-04,1974,Terminated
+1e-04,FBDF,tau_abs_tol_t,1e-10,3.537238e-02,5.240264e-03,2552,Terminated
+1e-04,QNDF,standard,NaN,-7.179890e+00,7.086270e-01,741,Success
+1e-04,QNDF,tau_same_tol,1e-08,-1.134218e+00,1.652132e-01,750,Terminated
+1e-04,QNDF,tau_abs_tol_t,1e-02,-2.288541e-01,3.386548e-02,775,Terminated
+1e-04,QNDF,tau_abs_tol_t,1e-04,-4.121251e-03,6.117475e-04,865,Terminated
+1e-04,QNDF,tau_abs_tol_t,1e-06,-1.226294e-04,1.785605e-05,910,Terminated
+1e-04,QNDF,tau_abs_tol_t,1e-08,-2.979070e-06,4.377234e-07,2151,Terminated
+1e-04,QNDF,tau_abs_tol_t,1e-10,-2.332381e-07,3.627187e-08,3282,Terminated
+1e-04,TRBDF2,standard,NaN,-7.049423e-01,1.037262e-01,2766,Success
+1e-04,TRBDF2,tau_same_tol,1e-08,9.986200e-02,1.486198e-02,1238,Terminated
+1e-04,TRBDF2,tau_abs_tol_t,1e-02,1.293389e-01,1.922317e-02,1324,Terminated
+1e-04,TRBDF2,tau_abs_tol_t,1e-04,1.877664e-02,2.872817e-03,1809,Terminated
+1e-04,TRBDF2,tau_abs_tol_t,1e-06,2.490316e-03,4.241959e-04,4402,Terminated
+1e-04,TRBDF2,tau_abs_tol_t,1e-08,2.511244e-04,4.368387e-05,12764,Terminated
+1e-04,TRBDF2,tau_abs_tol_t,1e-10,7.814579e-05,1.363947e-05,23803,Terminated
+1e-04,KenCarp4,standard,NaN,8.190013e-02,1.194470e-02,2031,Success
+1e-04,KenCarp4,tau_same_tol,1e-08,7.065521e-02,1.035194e-02,1261,Terminated
+1e-04,KenCarp4,tau_abs_tol_t,1e-02,7.580822e-02,1.123021e-02,1356,Terminated
+1e-04,KenCarp4,tau_abs_tol_t,1e-04,7.085115e-03,1.025284e-03,1559,Terminated
+1e-04,KenCarp4,tau_abs_tol_t,1e-06,2.495346e-04,3.692899e-05,2783,Terminated
+1e-04,KenCarp4,tau_abs_tol_t,1e-08,7.381495e-06,1.105987e-06,6499,Terminated
+1e-04,KenCarp4,tau_abs_tol_t,1e-10,1.000155e-06,1.503999e-07,10446,Terminated
+1e-06,Rosenbrock23,standard,NaN,-2.347195e+03,9.995697e-01,2523,Success
+1e-06,Rosenbrock23,tau_same_tol,1e-08,NaN,NaN,-1,error: MethodError: no method matching Float64(::Vector{Float64})
+T
+1e-06,Rosenbrock23,tau_abs_tol_t,1e-02,NaN,NaN,-1,error: MethodError: no method matching Float64(::Vector{Float64})
+T
+1e-06,Rosenbrock23,tau_abs_tol_t,1e-04,NaN,NaN,-1,error: MethodError: no method matching Float64(::Vector{Float64})
+T
+1e-06,Rosenbrock23,tau_abs_tol_t,1e-06,NaN,NaN,-1,error: MethodError: no method matching Float64(::Vector{Float64})
+T
+1e-06,Rosenbrock23,tau_abs_tol_t,1e-08,NaN,NaN,-1,error: MethodError: no method matching Float64(::Vector{Float64})
+T
+1e-06,Rosenbrock23,tau_abs_tol_t,1e-10,NaN,NaN,-1,error: MethodError: no method matching Float64(::Vector{Float64})
+T
+1e-06,Rodas5P,standard,NaN,5.680064e+02,9.979595e-01,2004,Success
+1e-06,Rodas5P,tau_same_tol,1e-08,NaN,NaN,-1,error: MethodError: no method matching Float64(::Vector{Float64})
+T
+1e-06,Rodas5P,tau_abs_tol_t,1e-02,NaN,NaN,-1,error: MethodError: no method matching Float64(::Vector{Float64})
+T
+1e-06,Rodas5P,tau_abs_tol_t,1e-04,NaN,NaN,-1,error: MethodError: no method matching Float64(::Vector{Float64})
+T
+1e-06,Rodas5P,tau_abs_tol_t,1e-06,NaN,NaN,-1,error: MethodError: no method matching Float64(::Vector{Float64})
+T
+1e-06,Rodas5P,tau_abs_tol_t,1e-08,NaN,NaN,-1,error: MethodError: no method matching Float64(::Vector{Float64})
+T
+1e-06,Rodas5P,tau_abs_tol_t,1e-10,NaN,NaN,-1,error: MethodError: no method matching Float64(::Vector{Float64})
+T
+1e-06,FBDF,standard,NaN,-7.637022e+03,9.998686e-01,1237,Success
+1e-06,FBDF,tau_same_tol,1e-08,-1.192877e+01,8.398680e-01,695,Terminated
+1e-06,FBDF,tau_abs_tol_t,1e-02,-5.271490e-02,8.004802e-03,1026,Terminated
+1e-06,FBDF,tau_abs_tol_t,1e-04,-1.360619e+00,1.971036e-01,1490,Terminated
+1e-06,FBDF,tau_abs_tol_t,1e-06,-1.294455e+00,1.878904e-01,1938,Terminated
+1e-06,FBDF,tau_abs_tol_t,1e-08,8.026224e+00,7.428224e-01,2779,Terminated
+1e-06,FBDF,tau_abs_tol_t,1e-10,-2.398919e+00,3.325973e-01,6781,Terminated
+1e-06,QNDF,standard,NaN,-2.542921e+04,9.999608e-01,962,Success
+1e-06,QNDF,tau_same_tol,1e-08,-1.275945e+01,8.549403e-01,809,Terminated
+1e-06,QNDF,tau_abs_tol_t,1e-02,-7.503112e-01,1.103950e-01,933,Terminated
+1e-06,QNDF,tau_abs_tol_t,1e-04,-1.441018e-02,2.140950e-03,1475,Terminated
+1e-06,QNDF,tau_abs_tol_t,1e-06,-1.902718e-04,2.776113e-05,2428,Terminated
+1e-06,QNDF,tau_abs_tol_t,1e-08,-3.770553e-05,5.612853e-06,3521,Terminated
+1e-06,QNDF,tau_abs_tol_t,1e-10,-2.960954e-05,4.340887e-06,3775,Terminated
+1e-06,TRBDF2,standard,NaN,-6.017735e+01,9.793844e-01,3957,Success
+1e-06,TRBDF2,tau_same_tol,1e-08,1.259599e+01,8.524216e-01,1419,Terminated
+1e-06,TRBDF2,tau_abs_tol_t,1e-02,6.208790e-01,9.155520e-02,2214,Terminated
+1e-06,TRBDF2,tau_abs_tol_t,1e-04,3.314406e-02,5.016397e-03,4578,Terminated
+1e-06,TRBDF2,tau_abs_tol_t,1e-06,3.127287e-03,5.183602e-04,12806,Terminated
+1e-06,TRBDF2,tau_abs_tol_t,1e-08,8.844564e-04,1.506119e-04,23655,Terminated
+1e-06,TRBDF2,tau_abs_tol_t,1e-10,8.432830e-04,1.432005e-04,24730,Terminated
+1e-06,KenCarp4,standard,NaN,4.215255e+01,9.672436e-01,2566,Success
+1e-06,KenCarp4,tau_same_tol,1e-08,1.302854e+01,8.583626e-01,1553,Terminated
+1e-06,KenCarp4,tau_abs_tol_t,1e-02,8.594894e-01,1.254866e-01,1963,Terminated
+1e-06,KenCarp4,tau_abs_tol_t,1e-04,2.982670e-02,4.378303e-03,3157,Terminated
+1e-06,KenCarp4,tau_abs_tol_t,1e-06,9.011257e-04,1.339033e-04,7234,Terminated
+1e-06,KenCarp4,tau_abs_tol_t,1e-08,1.279374e-04,1.895609e-05,10964,Terminated
+1e-06,KenCarp4,tau_abs_tol_t,1e-10,1.158646e-04,1.719403e-05,11351,Terminated
