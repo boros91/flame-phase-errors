@@ -7,6 +7,11 @@ authors:
     given-names: Imre
     affiliation: "Tiberiu Popoviciu Institute of Numerical Analysis, Romanian Academy, Cluj-Napoca, Romania"
 version: 1.0.0
+doi: 10.5281/zenodo.24314322
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24314322
+    description: "Zenodo archive of release v1.0.0"
 date-released: 2026-11-17
 license: MIT
 repository-code: "https://github.com/boros91/flame-phase-errors"
@@ -25,4 +30,4 @@ preferred-citation:
       affiliation: "Tiberiu Popoviciu Institute of Numerical Analysis, Romanian Academy, Cluj-Napoca, Romania"
   title: "Right shape, wrong time: phase errors of ODE solvers in the flame problem"
   year: 2026
-  notes: "Submitted"
+  notes: "Preprint"
