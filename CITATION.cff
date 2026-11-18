@@ -31,3 +31,8 @@ preferred-citation:
   title: "Right shape, wrong time: phase errors of ODE solvers in the flame problem"
   year: 2026
   notes: "Preprint"
+  identifiers:
+    - type: doi
+      value: 10.48550/arXiv.2611.23027
+      description: "arXiv:2611.23027"
+  url: "https://arxiv.org/abs/2611.23027"

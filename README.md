@@ -2,7 +2,7 @@
 
 Code and data for the paper
 
-> Imre Boros, *Right shape, wrong time: phase errors of ODE solvers in the flame problem* (2026, preprint; the arXiv link will be added here).
+> Imre Boros, *Right shape, wrong time: phase errors of ODE solvers in the flame problem* (2026), preprint, [arXiv:2611.23027](https://arxiv.org/abs/2611.23027).
 
 The paper studies the flame family y' = y^q (1 - y), y(0) = delta, q >= 2. It shows that the global error of ODE solvers on this problem is a phase error: the computed front has the right shape but arrives at the wrong time. The phase delay is computed exactly from the accepted steps. The repository contains the Python, MATLAB, Julia and C code and the data that produce every figure and table of the paper and of its supplementary Tables S1-S6, and the numbers quoted in the text.
 
